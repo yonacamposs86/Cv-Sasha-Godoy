@@ -1,0 +1,10 @@
+
+#home,
+#me,
+#habilidades,
+#experiencia,
+#educacion,
+#portafolio {
+    min-height: 400px;
+    padding-top: 100px;
+}
