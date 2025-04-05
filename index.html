@@ -87,22 +87,63 @@
         </div>
       </nav>
     </header>
-    <main class="container-fluid bg-dark text-light min-vh-100 pt-4 p-0">
+    <main class="container-fluid bg-dark text-light text-info">
       <section id="home">
-        <div class="container">
-        <span class="text-center">Hola</span>
-       <h2>Soy Sasha Godoy</h2>
-       <h4>Web-developer</h4>
-       <ul>
-        <li>sashanathaly@gmail.com</li>
-        <li>+56949731118</li>
-        <li>Carmen 444, Santiago</li>
-       </ul>
+        <div
+          class="container"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div class="text-content" style="flex: 1">
+            <span>Hola</span>
+            <h2>Soy Sasha Godoy</h2>
+            <h4>Web-developer</h4>
+            <ul style="list-style-type: none">
+              <li>sashanathaly@gmail.com</li>
+              <li>+56949731118</li>
+              <li>Carmen 444, Santiago</li>
+            </ul>
+            <ul style="list-style-type: none; padding: 0; display: flex">
+              <li style="margin-right: 10px">
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li style="margin-right: 10px">
+                <i class="fa-brands fa-linkedin"></i>
+              </li>
+              <li><i class="fa-brands fa-github"></i></li>
+            </ul>
+          </div>
+
+          <div class="image-content" style="flex-shrink: 0; max-width: 30%">
+            <img
+              src="./assets/imgs/Fotoperfilsasha.jpg"
+              alt="Foto de mujer"
+              class="img-fluid"
+              style="border-radius: 10%; border: 7px solid #eb30a3"
+            />
+          </div>
+        </div>
       </section>
-      </div>
+
+      <!-- Secciones adicionales -->
       <section id="me">
         <h1 class="mb-5 px-4 text-center">Acerca de mi</h1>
+        <div class="about-me">
+          <div class="description">
+            <p>
+              Hola mi nombre es Sasha Godoy, tengo 31 años , aprendiendo y
+              apasionada en el mundo del desarrollo web para mejorar mis
+              habilidades para lograr proyectos de alta calidad y encontrar un
+              empleo que me ayude a mejorar en esta area.
+            </p>
+          </div>
+        </div>
       </section>
+
+      <!-- Otras secciones -->
       <section id="habilidades">
         <h1 class="mb-5 px-4 text-center">Habilidades</h1>
       </section>
