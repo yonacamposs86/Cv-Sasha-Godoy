@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#">
             <img
               src="./assets/imgs/logo.png"
@@ -38,7 +38,7 @@
             class="collapse navbar-collapse w-100 justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav mb-2 mb-lg-0">
+            <ul class="navbar-nav mb-2 mb-lg-0 fs-4">
               <li class="nav-item">
                 <a
                   class="nav-link active fw-bolder d-flex flex-column justify-content-center align-items-center"
@@ -90,14 +90,9 @@
     <main class="container-fluid bg-dark text-light text-info">
       <section id="home">
         <div
-          class="container"
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-          "
+          class="container d-flex justify-content-between align-items-center"
         >
-          <div class="text-content" style="flex: 1">
+          <div class="text-content fs-4">
             <h4>Hola soy</h4>
             <h2 class="fw-bold">Sasha Godoy</h2>
             <h4>Web-developer</h4>
@@ -106,7 +101,10 @@
               <li>+56949731118</li>
               <li>Carmen 444, Santiago</li>
             </ul>
-            <ul style="list-style-type: none; padding: 0; display: flex">
+            <ul
+              class="fs-3"
+              style="list-style-type: none; padding: 0; display: flex"
+            >
               <li style="margin-right: 10px">
                 <a href="https://www.instagram.com/" target="_blank">
                   <i class="fa-brands fa-instagram"></i
@@ -139,10 +137,17 @@
         </div>
       </section>
 
-      <section id="me">
+      <section class="container" id="me">
         <h1 class="mb-5 px-4 text-center">Acerca de mi</h1>
-        <div class="about-me">
-          <div class="description">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="imagen-container col-sm-1 col-lg-3">
+            <img
+              src="./assets/imgs/foto-acerca-de-mi.jpg"
+              alt="Foto de mujer"
+              class="img-fluid responsive-imagen"
+            />
+          </div>
+          <div class="container align-content-center col-sm-12 col-lg-6 fs-4">
             <p>
               Hola mi nombre es Sasha Godoy, tengo 31 años , aprendiendo y
               apasionada en el mundo del desarrollo web para mejorar mis
@@ -151,17 +156,6 @@
             </p>
           </div>
         </div>
-        <div
-          class="image-content"
-          style="flex-shrink: 0; max-width: 30%; margin-right: auto"
-        >
-          <img
-            src="./assets/imgs/foto-acerca-de-mi.jpg"
-            alt="Foto de mujer"
-            class="img-fluid"
-            style="border-radius: 0%; width: 100%; height: auto"
-          />
-        </div>
       </section>
 
       <section id="habilidades">
@@ -169,120 +163,109 @@
         <div class="d-flex flex-wrap justify-content-center gap-4 px-4 mb-5">
           <div
             style="width: fit-content"
-            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform"
+            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform col-md-1"
           >
             <i class="fa-brands fa-html5"></i>
             <h3>HTML</h3>
           </div>
           <div
             style="width: fit-content"
-            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform"
+            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform col-md-1"
           >
             <i class="fa-brands fa-css"></i>
             <h3>CSS</h3>
           </div>
           <div
             style="width: fit-content"
-            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform"
+            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform col-md-1"
           >
             <i class="fa-brands fa-bootstrap"></i>
             <h3>Bootstrap</h3>
           </div>
           <div
             style="width: fit-content"
-            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform"
+            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform col-md-1"
           >
             <i class="fa-brands fa-git"></i>
             <h3>GIT</h3>
           </div>
           <div
             style="width: fit-content"
-            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform"
+            class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-gradient shadow-lg p-4 cursor-pointer hover-transform col-md-1"
           >
             <i class="fa-brands fa-github"></i>
             <h3>GitHub</h3>
           </div>
         </div>
       </section>
-      <section id="experiencias">
+      <section class="container" id="experiencias">
         <h1 class="mb-5 px-4 text-center">Experiencias</h1>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">2022-2025</div>
-          <div class="card-body">
-            <h5 class="card-title">Encargada de tienda</h5>
-            <p class="card-text">
-              Encargada de tienda optica, atencion al cliente y atencion de plataforma de reclamos y solicitudes varias.
-            </p>
+        <div
+          class="row h-auto d-flex flex-lg-grow-1 gap-4 justify-content-around"
+        >
+          <div
+            class="card text-light bg-danger mb-3 col-sm-1 col-md-8"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2022-2025</div>
+            <div class="card-body">
+              <h5 class="card-title">Encargada de tienda</h5>
+              <p class="card-text">
+                Encargada de tienda optica, atencion al cliente y atencion de
+                plataforma de reclamos y solicitudes varias.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Part time</div>
-          <div class="card-body">
-            <h5 class="card-title">Traducciones independientes</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div
+            class="card text-light bg-danger mb-3 col-sm-1 col-md-8"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">Part-time</div>
+            <div class="card-body">
+              <h5 class="card-title">Traduccion de textos</h5>
+              <p class="card-text">
+                Traducir y corregir textos de aplicacion protranslate.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Success card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div
+            class="card text-light bg-danger mb-3 col-sm-1 col-md-8"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2020-2021</div>
+            <div class="card-body">
+              <h5 class="card-title">Ayudante de Inventario</h5>
+              <p class="card-text">
+                Toma de inventario de tiendas de ropa a nivel nacional
+                (Ecuador).
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Danger card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div
+            class="card text-light bg-danger mb-3 col-sm-1 col-md-8"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2018-2020</div>
+            <div class="card-body">
+              <h5 class="card-title">Secretaria de Gerencia</h5>
+              <p class="card-text">
+                Encargada de agenda de gerente, llamadas, facturacion y atencion
+                a clientes.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Warning card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Info card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="card text-light bg-danger mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Dark card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div
+            class="card text-light bg-danger mb-3 col-sm-1 col-md-8"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2016-2017</div>
+            <div class="card-body">
+              <h5 class="card-title">Analista Billingue</h5>
+              <p class="card-text">
+                Atencion de central telefonica de clientes desde Chicago por
+                problemas con el interner , telefonia y cable.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -291,6 +274,7 @@
       </section>
       <section id="portafolio">
         <h1 class="mb-5 px-4 text-center">Portafolio</h1>
+        <div class="container"></div>
       </section>
     </main>
     <footer></footer>
