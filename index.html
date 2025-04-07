@@ -16,13 +16,15 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./assets/imgs/logo.png"
-              class="img-fluid w-100"
-              alt="Imagen logo"
-            />
-          </a>
+          <div class="logo">
+            <a class="navbar-brand" href="#">
+              <img
+                src="./assets/imgs/logo.png"
+                class="img-fluid"
+                alt="Imagen logo"
+              />
+            </a>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -72,7 +74,7 @@
                 <a
                   class="nav-link active fw-bolder d-flex flex-column justify-content-center align-items-center"
                   href="#educacion"
-                  >Educacion</a
+                  >Educación</a
                 >
               </li>
               <li class="nav-item">
@@ -106,7 +108,11 @@
               style="list-style-type: none; padding: 0; display: flex"
             >
               <li style="margin-right: 10px">
-                <a href="https://www.instagram.com/" target="_blank">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i class="fa-brands fa-instagram"></i
                 ></a>
               </li>
@@ -114,12 +120,17 @@
                 <a
                   href="https://www.linkedin.com/in/sashanathy/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/SashaNathy" target="_blank">
+                <a
+                  href="https://github.com/SashaNathy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i class="fa-brands fa-github"></i>
                 </a>
               </li>
@@ -270,7 +281,7 @@
         </div>
       </section>
       <section id="educacion">
-        <h1 class="mb-5 px-4 text-center">Educacion</h1>
+        <h1 class="mb-5 px-4 text-center">Educación</h1>
         <div
           class="row h-auto d-flex flex-lg-grow-1 gap-4 justify-content-center"
         >
@@ -299,7 +310,7 @@
             <div class="card-body text-danger">
               <h5 class="card-title">Colegio Divina Pastora</h5>
               <p class="card-text">
-                Estudie la basica y el colegio graduada en ciencias.
+                Estudié la basica y el colegio graduada en ciencias.
               </p>
             </div>
           </div>
@@ -317,58 +328,87 @@
               alt="imagen de desafio1"
             />
             <div class="card-body">
-              <p class="card-text text-black bg-danger fs-4">
-                Imagen del Desafio 1.
+              <p class="card-text text-light text-center bg-danger fs-4">
+                Curriculum Sasha
               </p>
             </div>
           </div>
           <div class="card card border-danger bg-dark" style="width: 18rem">
-            <img
-              src="./assets/imgs/desafio-2.png"
-              class="card-img-top"
-              alt="Imagen desafio 2"
-            />
-            <div class="card-body">
-              <p class="card-text text-black bg-danger fs-4">
-                Imagen del Desafio 2.
+            <div class="responsive-img-container">
+              <img src="./assets/imgs/desafio2.jpg" alt="Deco Lentes" />
+            </div>
+            <div class="card-footer">
+              <p class="card-text text-light text-center bg-danger fs-4">
+                Deco Lentes
               </p>
             </div>
           </div>
 
           <div class="card border-danger bg-dark" style="width: 18rem">
-            <iframe
-              src="https://sashanathy.github.io/iguana-page/"
-              frameborder="0"
-              title="Iguana Page"
-              class="h-75"
-            ></iframe>
-            <div class="card-body">
-              <p class="card-text text-black bg-danger fs-4">Iguana Page .</p>
+            <div class="responsive-img-container">
+              <img src="./assets/imgs/desafio 3.jpg" alt="Iguana Page" />
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <a
+                href=" https://sashanathy.github.io/iguana-page/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" class="btn btn-danger">
+                  Iguana Page
+                </button>
+              </a>
+              <a
+                href=" https://github.com/SashaNathy/iguana-page.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" class="btn btn-danger">GitHub</button>
+              </a>
             </div>
           </div>
-          <div class="card card border-danger bg-dark" style="width: 18rem">
-            <img
-              src="./assets/imgs/desafio4.png"
-              class="card-img-top"
-              alt="iamgen desafio 4"
-            />
-            <div class="card-body">
-              <p class="card-text text-black bg-danger fs-4">
-                Imagen Desafio 4.
-              </p>
+          <div class="card border-danger bg-dark" style="width: 18rem">
+            <div class="responsive-img-container">
+              <img src="./assets/imgs/desafio4.jpg" alt="Cuppon Web" />
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <a
+                href="https://sashanathy.github.io/cuppon-web/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" class="btn btn-danger">
+                  Cuppon Page
+                </button>
+              </a>
+              <a
+                href="https://github.com/SashaNathy/cuppon-web.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" class="btn btn-danger">GitHub</button>
+              </a>
             </div>
           </div>
-          <div class="card card border-danger bg-dark" style="width: 18rem">
-            <img
-              src="./assets/imgs/desafio5.png"
-              class="card-img-top"
-              style="width: 100%; height: auto"
-              alt="imagen desafio 5"
-            />
-            <div class="card-body">
-              <p class="card-text text-black bg-danger fs-4">
-                Imagen Desafio 5.
-              </p>
+          <div class="card border-danger bg-dark" style="width: 18rem">
+            <div class="responsive-img-container">
+              <img src="./assets/imgs/desafio5.jpg" alt="Blog Sasha" />
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <a
+                href="https://sashanathy.github.io/Blog-Sasha-ADL-G93-D5/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" class="btn btn-danger">Sasha Blog</button>
+              </a>
+              <a
+                href=" https://github.com/SashaNathy/Blog-Sasha-ADL-G93-D5.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" class="btn btn-danger">GitHub</button>
+              </a>
             </div>
           </div>
         </div>

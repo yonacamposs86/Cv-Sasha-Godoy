@@ -1,23 +1,34 @@
-/* * {
-  height: auto;
-} */
+* {
+    background-color: #212529;
+}
+
+header {
+    height: 10vh;
+}
 
 main {
-   
     height: auto;
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 5rem;
 }
 
+.logo {
+    width: 12rem;
+}
 
+.logo img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Redireccionamiento a las secciones */
 #home,
 #me,
 #habilidades,
 #experiencia,
 #educacion,
-#portafolio {
+#portafolio .portafolio {
     min-height: 400px;
     padding-top: 100px;
 }
@@ -27,7 +38,19 @@ h1 {
     width: 100%;
 }
 
+.responsive-img-container {
+    position: relative;
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+}
+
+.responsive-img-container img {
+   width: 100%;
+   object-fit: cover;
+}
+
 footer {
-    margin-top: 15px;
     height: 10vh;
+    align-content: center;
 }
