@@ -10,5 +10,3 @@ Este es mi prueba final del primer m√≥dulo de desarrollo web. Se trata de una p√
 - 
 ## Primer trabajo forkeado y su commit.
 
-![Primer commit de Cv Matias]
-<img src="./assets/imgs/commit-1.png">
