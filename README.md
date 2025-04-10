@@ -40,6 +40,8 @@ En el pull request se incluyen los siguientes cambios en la interfaz del sitio:
 
 🛠️ Todos los cambios son visuales y **no afectan la funcionalidad del sitio**.
 
+![Segundo fork Cv Alexander Donoso](./assets/imgs/forksegundocv.png)
+
 ![Segundo commit Cv Alexander Donoso](./assets/imgs/commits-2do-proyecto.png)
 
 ![Pull Request Cv Alexander Donoso](./assets/imgs/pullrequestcvalexander.png)
