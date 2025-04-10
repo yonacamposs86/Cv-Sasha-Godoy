@@ -26,3 +26,20 @@ Además, el sitio cuenta con una **barra de navegación (navbar)** que permite d
 Este fue mi **primer trabajo forkeado** y el commit inicial está representado en la siguiente imagen:
 
 ![Primer commit de CV Matias](./assets/imgs/commit-1.png)
+
+## 📌 Segundo trabajo forkeado y commits.
+
+## ✨ Cambios realizados en el Pull Request
+
+En el pull request se incluyen los siguientes cambios en la interfaz del sitio:
+
+- ✅ Se reorganizaron los ítems del navbar para mejorar la navegación.  
+- ✅ Se agrandó el tamaño de fuente en el navbar para una mejor legibilidad.  
+- ✅ Se modificó el color de fondo (background) del body para un diseño más limpio.  
+- ✅ Se cambiaron los colores de fondo en las distintas secciones para hacerlas más visuales y diferenciadas.
+
+🛠️ Todos los cambios son visuales y **no afectan la funcionalidad del sitio**.
+
+![Segundo commit Cv Alexander Donoso](./assets/imgs/commits-2do-proyecto.png)
+
+![Pull Request Cv Alexander Donoso](./assets/imgs/pullrequestcvalexander.png)
